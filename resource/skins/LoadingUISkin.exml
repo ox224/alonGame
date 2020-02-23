@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StartGameSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="map_jpg"/>
+	<e:Image source="merger_loadui_json.loadui_logo" horizontalCenter="2" verticalCenter="-341.5"/>
+	<e:Button id="startgame_btn" label="游客" anchorOffsetY="-1.83" anchorOffsetX="0" horizontalCenter="-123" bottom="474" width="130" height="62">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_down3_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="bind_btn" label="登陆" anchorOffsetY="-1.95" anchorOffsetX="0" width="130" height="62" horizontalCenter="163" bottom="475">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_down3_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group width="640" height="240.91" anchorOffsetX="0" bottom="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image y="65.82" scaleX="1" scaleY="1" scale9Grid="18,1,11,13" width="500" x="70" source="loadui_process_bg_png"/>
+		<e:Image x="70" y="66" anchorOffsetX="0" width="276.33" anchorOffsetY="0" height="14" source="loadui_process_png"/>
+		<e:Image source="merger_loadui_json.loadui_horse" y="-10.61" right="5" visible="false"/>
+		<e:Label text="抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 \n适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活" size="18" horizontalCenter="0" bottom="10"/>
+	</e:Group>
+</e:Skin>
